@@ -16,7 +16,7 @@ import org.springframework.web.client.RestTemplate;
 @SpringBootApplication
 public class TestspringbootapiApplication {
 
-	public static final String serverUrl = "http://localhost:9090";
+	public static final String serverUrl = "http://dataservice.default.svc.cluster.local";
 
 	public static String requestProcessedData(String url){
 		RestTemplate request = new RestTemplate();
